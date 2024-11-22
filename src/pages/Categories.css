@@ -1,0 +1,25 @@
+.categories {
+    padding: 20px;
+  }
+  
+  .categories h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .category-section {
+    margin-bottom: 40px;
+  }
+  
+  .category-section h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .cake-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
