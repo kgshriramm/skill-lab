@@ -1,13 +1,136 @@
+/* General Styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2 {
+  color: #f56a00;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f56a00;
+}
+
+a:hover {
+  color: #d45e00;
+}
+
+/* Header */
+.main-header {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: blue;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background: #f56a00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background: #d45e00;
+}
+
+/* Menu Section */
+.menu-section {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  color: #f56a00;
+}
+
+/* Feedback Section */
+.feedback-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.feedback-section form input,
+.feedback-section form textarea,
+.feedback-section form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feedback-section form button {
+  padding: 10px;
+  background: #f56a00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+}
+
+.social-links a {
+  margin: 0 10px;
 }

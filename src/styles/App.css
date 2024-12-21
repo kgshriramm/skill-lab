@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1; /* Automatically adjust the width of the main content */
+  margin-left: 250px; /* Matches the sidebar width */
+  overflow-y: auto; /* Adds scrolling if content overflows */
+  background-color: #1e1e2e;
+  color: white;
+}
